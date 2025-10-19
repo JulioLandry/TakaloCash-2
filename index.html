@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="mg">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TakaloCash — Accueil</title>
+  <meta name="description" content="TakaloCash - Échange crypto ↔ mobile money (Mvola, Orange Money, Airtel Money) à Madagascar">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">TakaloCash</h1>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="pages/depot.html">Dépôt</a>
+        <a href="pages/retrait.html">Retrait</a>
+        <a href="pages/about.html">Momba anay</a>
+        <a href="pages/contact.html">Contact</a>
+        <a href="pages/faq.html">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container hero">
+    <section>
+      <h2>Araho ny cours, avadiho ho Ariary</h2>
+      <p>Tsotra, azo antoka — Mpanakalo vola virtoaly mankany amin'ny Mobile Money (Mvola/Orange/Airtel).</p>
+
+      <div class="card grid-2">
+        <div>
+          <h3>Conversion rapide</h3>
+          <p>Soraty ny montant, mifidiana moyen, avy eo tsindrio <strong>Calculate</strong>.</p>
+          <label>Montant (crypto)</label>
+          <input id="cryptoAmount" placeholder="Ex: 50" />
+          <label>Crypto</label>
+          <select id="cryptoSelect">
+            <option value="trx">TRX</option>
+            <option value="btc">BTC</option>
+            <option value="eth">ETH</option>
+          </select>
+          <button id="calcBtn" class="btn">Calculate</button>
+        </div>
+        <div>
+          <h3>Résultat</h3>
+          <div id="result" class="result">-- Ariary</div>
+          <small class="muted">Frais: 0.5% (exemple)</small>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© 2025 TakaloCash — Fiambenana sy fampahafantarana</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+  <script src="assets/js/analytics.js"></script>
+</body>
+</html>

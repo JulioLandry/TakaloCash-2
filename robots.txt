@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://juliolandry.github.io/TakaloCash-Service/sitemap.xml
